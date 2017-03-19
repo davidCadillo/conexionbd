@@ -46,7 +46,6 @@ while ($sentencia = $stmt->fetch()) {
 	printf("%d\t%s\t%s\t%d\n", $id, $nombre, $talla, $precio);
 }
 
-
 //9) Se procesan los resultados
 
 //10) Se cierra la sentencia preparada

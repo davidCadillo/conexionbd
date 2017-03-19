@@ -1,0 +1,17 @@
+form{
+    background-color: aliceblue;
+}
+
+input, label, select, button {
+    display: block;
+    margin-top: 1px;
+}
+
+label {
+    padding-top: 3px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 50px;
+}

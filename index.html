@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+<h1>Inscripción</h1>
+<form action="procesar.php" method="post">
+
+    <fieldset>
+        <legend>Ingresar nueva camiseta</legend>
+        <label for="nombrePrenda">Nombre: </label>
+        <input type="text" name="nombrePrenda">
+        <label for="talla">Talla: </label>
+        <select name="talla">
+            <option value="1">XS</option>
+            <option value="2">S</option>
+            <option value="3">M</option>
+            <option value="4">L</option>
+            <option value="5">XL</option>
+            <option value="6">XXL</option>
+        </select>
+
+        <label for="precio">Precio: </label>
+        <input type="text" name="precio">
+        <button type="submit">Agregar</button>
+
+    </fieldset>
+</form>
+
+</body>
+</html>

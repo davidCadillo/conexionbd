@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5be2fb68-5021-4aca-b91a-4ab8da60d65a" name="localhost" url="http://localhost/conexionbd">
+        <fileTransfer port="0" mountedRoot="/var/www/html/conexionbd" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

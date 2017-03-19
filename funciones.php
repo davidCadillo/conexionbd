@@ -3,10 +3,7 @@ declare(strict_types = 1);
 
 function convertirTalla(string $tallaNumero): string {
 
-
-
 	switch ($tallaNumero) {
-
 		case '1':
 			return "XS";
 		case '2':

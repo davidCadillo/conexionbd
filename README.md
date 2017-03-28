@@ -5,3 +5,4 @@ Esta es una serie de pequeños ejercicios de conexión a una base de datos MySQL
 3. Conexión usando OOP
 4. Conexión con OOP usando sentencias preparadas.
 5. Conexión usando PDO
+6. Sentencia preparadas con PDO
